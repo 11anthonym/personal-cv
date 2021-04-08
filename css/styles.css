@@ -22,7 +22,7 @@ h3{
 }
 
 
-a, a:hover, a:active, a:visited, a:focus{
+a{
     font-size: 1.5em;
     text-decoration: none;
     padding: 0 1em 0 0;
