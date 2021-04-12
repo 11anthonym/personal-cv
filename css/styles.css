@@ -13,6 +13,7 @@ hr {
 body{
     margin: 0;
     text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -31,3 +32,26 @@ a {
     text-decoration: none;
     padding: 0 1em 0 0;
 }
+
+.top-nav ul{
+    background-color: #126e82;
+    padding: 10px 0;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    padding-left: 55px;
+}
+
+.top-nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #132c33;
+}
+
+.top-nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
