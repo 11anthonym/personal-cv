@@ -28,10 +28,11 @@ a {
 
 #name-title {
     display: inline-block;
-    position: static;
+    position: relative;
+    left: 16px;
 }
 
 #headshot {
     display: inline-block;
-    position: static;
+    position: relative;
 }
