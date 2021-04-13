@@ -20,7 +20,7 @@ table {
 h1 {
   margin: 50px auto 0 auto;
   color: #66bfbf;
-  font-size: 7rem;
+  font-size: 6.5rem;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -76,8 +76,8 @@ a {
 
 .top-cloud {
   position: absolute;
-  right: 400px;
-  top: 50px;
+  right: 470px;
+  top: 400px;
 }
 
 .bottom-cloud {
@@ -88,4 +88,10 @@ a {
 
 .personal-description {
   font-size: 2rem;
+  font-weight: normal;
+}
+
+.long-desc{
+  padding: 50px 0;
+  line-height: 2em;
 }
