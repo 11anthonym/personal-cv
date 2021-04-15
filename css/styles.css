@@ -50,8 +50,16 @@ a {
   text-align: left;
 }
 
+.copyright {
+  color: #ffffff;
+}
+
 .footer-link {
   color: #11999e;
+}
+
+.bottom-container a.footer-link:hover {
+  color: #ffffff;
 }
 
 .profile {
