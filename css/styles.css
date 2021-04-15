@@ -42,7 +42,7 @@ a {
 }
 
 .contact-me {
-  width: 50%;
+  width: 70%;
   margin: 50px auto 0;
 }
 
@@ -118,8 +118,9 @@ a {
 
 .long-desc {
   padding: 50px 0;
-  width: 50%;
+  width: 70%;
   margin: auto;
+  text-align: left;
   line-height: 2;
 }
 
@@ -149,7 +150,7 @@ a {
 
 .skill-row-1 {
   margin: auto;
-  width: 50%;
+  width: 70%;
   text-align: left;
   line-height: 2;
   clear: left;
@@ -157,7 +158,7 @@ a {
 
 .skill-row-2 {
   margin: 170px auto auto auto;
-  width: 50%;
+  width: 70%;
   text-align: left;
   line-height: 2;
 }
