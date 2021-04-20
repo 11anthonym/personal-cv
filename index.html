@@ -7,18 +7,36 @@
     <title>🧑‍💻 Anthony M - Home</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="top-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-        </ul>
-    </div>
-    <div class="top-container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Anthony Moretti</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="top-container center-text">
         <h1 class="name-title">Anthony M</h1>
         <h3 class="personal-description"><em>Audio Visual Professional</em></h3>
         <img class="top-cloud" src="images/cloud.png" alt="cloud.png">
@@ -28,8 +46,8 @@
             automation systems
             deployment, and currently learning software development.</p>
     </div>
-    <div class="middle-container">
-        
+    <div class="middle-container center-text">
+
         <hr>
         <div class="skills">
             <h2>My Skills.</h2>
@@ -41,7 +59,7 @@
             </div>
             <div class="skill-row-2">
                 <h3>Lorem Ipsum Dolor</h3>
-                <img class="skills-img-2" src="images/TV.jpg" alt="">                
+                <img class="skills-img-2" src="images/TV.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
                     mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
             </div>
@@ -51,17 +69,20 @@
             <h2>Get In Touch</h2>
             <div class="contact-text-body">
                 <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+                </p>
             </div>
             <a class="contact-btn" href="mailto:name@email.com">CONTACT ME</a>
         </div>
     </div>
 
 
-    <div class="bottom-container">
+    <div class="bottom-container center-text">
         <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
         <a class="footer-link" href="https://github.com/11anthonym" target="_blank">Github</a>
-        <p class="copyright">© <script>document.write(new Date().getFullYear())</script> Anthony M.</p>
+        <p class="copyright">©
+            <script>document.write(new Date().getFullYear())</script> Anthony M.
+        </p>
     </div>
 </body>
 
